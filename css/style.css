@@ -16,10 +16,11 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #1A1A1A;
-  padding: 10px;
+  padding:13px;
   color: white;
   font-weight: 500;
   font-size: 15px;
+  line-height:30px;
 }
 .nav-links {
   color: #a1a6af;
@@ -161,7 +162,8 @@ body {
   text-align: center;
 }
 .index-heading {
-  font-family: "Segoe UI", "Inter", sans-serif;
+  
+  font-family: ""Factor A", Arial, Helvetica, sans-serif";
   font-size: 62px;
   font-weight: 649;
   color: white;
@@ -173,22 +175,113 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .search-box {
+  width: 39%;
+  height: 59px;
+  background-color: white;
   display: flex;
   align-items: center;
-  background-color: white;
-  border-radius: 8px;
-  width: 300px;
-  margin: 20px auto; 
+  justify-content: space-between;
+  margin-left: 300px;
+  border-radius: 9px;
+  
 }
-.index-search {
+ .index-search {
   border: none;
-  padding: 12px 16px;
-  font-size: 14px;
   outline: none;
-  width: 280px;
-  color: #333;
-  border-right: 1px solid #ddd;
+  border-radius: 9px;
+ 
+  
+  padding: 18px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 548;
+} 
+.country-select {
+  width: 39%;
+  height: 61px;
+  margin-left: 200px;
+  width: 20%;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  font-size: 16px;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
 }
+.start-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 550px;
+  
+  
+}
+.start-btn {
+  width:28%;
+  height: 60px;
+  background-color: rgb(255, 98, 45);
+  color: white;
+  padding: 16px 32px;
+  font-family: Inter, sans-serif;
+  font-size: 19px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: lighter;
+  position: relative;
+  top: -60px;
+}
+.start-btn:hover {
+  background-color: rgb(156, 44, 6);
+}
+.toolkit-section {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.toolkit-section h2 {
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+.toolkit-buttons {
+  display: flex;
+  justify-content: center;  
+  gap: 12px; 
+  margin-top: 28px;
+}
+.toolkit-btn {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  padding: 16px 49px;
+  border-radius: 999px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.toolkit-btn.active {
+  background-color: white;
+  color: black;
+}
+.toolkit-btn:hover {
+  background-color:rgba(212, 209, 209, 0.15);
+}
+.feature-box {
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 340px;
+  margin: 20px auto;
+  
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
 
  
  
