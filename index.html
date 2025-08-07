@@ -4,7 +4,8 @@
   <title>SEMRUSH Clone</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+  <!--linking swiperJS CSS--->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
   <nav class="navbar">
@@ -115,7 +116,7 @@
   <h2>Toolkits for every task</h2>
   <div class="toolkit-buttons">
     <button class="toolkit-btn">Traffic & Market</button>
-    <button class="toolkit-btn active">SEO</button>
+    <button class="toolkit-btn">SEO</button>
     <button class="toolkit-btn">Local</button>
     <button class="toolkit-btn">Content</button>
     <button class="toolkit-btn">AI</button>
@@ -123,19 +124,106 @@
     <button class="toolkit-btn">Advertising</button>
   </div>
 </div>
-<div class="feature-box">
-  <div class="feature-header">
-    <h2>Traffic & Market</h2>
-  </div>
-<ul class="feature-list">
-    <li>Analyze traffic on any website</li>
-    <li>Track and benchmark competitors</li>
-    <li>Gain actionable audience data</li>
-  </ul>
-  </div>
-
-
+<div class="slide-container swiper">
+  <div class="card-wrapper">
+      <ul class="card swiper-wrapper">
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-chart-simple"></i>Traffic & Market</h3>
+            <ul class="content">
+              <li>Analyze traffic on any website</li>
+              <br>
+              <li>Track and benchmark competitors</li>
+              <br>
+              <li>Gain actionable audience data</li>
+            </ul>
+            <img src="Screenshot 2025-08-07 153439.png" alt="Tracffic Channel" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-tools"></i></i>SEO</h3>
+            <ul class="content">
+              <li>Find billions of keywords with AL insights</li>
+              <br>
+              <li>Analyze backlinks and traffic potential</li>
+              <br>
+              <li>Run technical audits and track rankings</li>
+            </ul>
+            <img src="seo image.png" alt="SEO" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-location-dot"></i>Local</h3>
+            <ul class="content">
+              <li>Optimize your Google Business Profile</li>
+              <br>
+              <li>Get your business listed in top directories</li>
+              <br>
+              <li>Respond to customer reviews with AI</li>
+            </ul>
+            <img src="localimage.png" alt="Local" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-pen-nib"></i>Content</h3>
+            <ul class="content">
+              <li>Create SEO-ready content with AI</li>
+              <br>
+              <li>Get high-ranking content ideas</li>
+              <br>
+              <li>Score and optimize content in real time</li>
+            </ul>
+            <img src="contentimage.png" alt="Content" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-wand-magic-sparkles"></i>AI</h3>
+            <ul class="content">
+              <li>Analyze how LLMs feature your brand</li>
+              <br>
+              <li>Track competitors AL visibility</li>
+              <br>
+              <li>Get AI tips to improve your strategy</li>
+            </ul>
+            <img src="aimage.png" alt="AI" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-comment"></i>Social</h3>
+            <ul class="content">
+              <li>Create and schedule posts with AI</li>
+              <br>
+              <li>Monitors brand mentions and performance</li>
+              <br>
+              <li>Find the right influencers for your brand</li>
+            </ul>
+            <img src="socialimage.png" alt="Social" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+          <li class="card-content swiper-slide">
+            <h3 class="name"><i class="fa-solid fa-mouse-pointer"></i>Advertising</h3>
+            <ul class="content">
+              <li>Launch AL-powered Google and Meta ads</li>
+              <br>
+              <li>Plan and optimize your PPC campaigns</li>
+              <br>
+              <li>Uncover competitors ad strategies</li>
+            </ul>
+            <img src="advertisingimage.png" alt="Advertising" class="card-image">
+            <button class="button">Try for free</button>
+          </li>
+    
+        </ul>
+         <div class="swiper-pagination"></div>
+         <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
 
   
-</body>
+</div>
+<!-- Linking SwiperJS scripts-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--Linking custom scripts-->
+<script src="script.js"></script>
+
+ </body>
 </html>
