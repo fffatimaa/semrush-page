@@ -5,14 +5,14 @@
 }
 body {
   font-family: 'Segoe UI';
+  background-color: black;
   
 }
-.main-section {
-  background-color: #4b1fa1;
+.first-section {
+  background-color: #421983;
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
-  padding-bottom: 100px;
-  position: relative;
+  
 }
 .logo {
   display: flex;
@@ -164,7 +164,6 @@ body {
   display: flex;
 }
 .index-header {
-  background-color: #4b1fa1; 
   padding: 100px;
   text-align: center;
 }
@@ -186,7 +185,6 @@ body {
   height: 59px;
   background-color: white;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-left: 300px;
   border-radius: 9px;
@@ -329,6 +327,11 @@ body {
   font-weight: 495;
   color: rgb(184, 128, 255)
 }
+.tlogo-image{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 .enterprise-section {
   background-image: url('../image/background.png');
   height: 100vh;
@@ -345,35 +348,122 @@ body {
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 30px;
+  line-height: 1.1;
   font-family: 'Segoe UI', sans-serif;
 }
 .enterprise-features {
   margin-top: 30px;
   list-style: none;
-  font-size: 18px;
+  font-size: 21px;
+  font-weight: 400;
   margin-bottom: 50px;
+ 
+}
+.enterprise-logo span {
+  font-weight: 400;
+}
+.enterprise-features li i{
+  margin-right: 8px; 
 }
 .enterprise-btn {
   color: white;
-  border-color: white;
+  border: 1px solid white; 
   padding: 12px 24px;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: lighter;
   background: transparent;
   width: 230px;
   height: 60px;
   position: relative;
   top: -30px;
-
 }
 .enterprise-image img {
-  max-width: 700px;
+  width: 135%; 
   position: relative;
-  top: -510px; 
-  margin-left: 450px;
+  top: -445px;
+  margin-left: 440px;
 }
+.second-section {
+    background-color: white;
+    border-radius: 120px;
+    padding: 70px;            
+    max-width: 100%;    
+    margin: 5px;
+}
+.Marketing-heading{
+  text-align: center;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: rgb(25, 27, 35);
+  line-height: 1.2;
+}
+.Marketing-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.Mnumber{
+  font-size: 70px;
+  color: rgb(184, 128, 255);
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.Mcontent p{
+  color: rgb(25, 27, 35); 
+  font-size: 21px;
+}
+.inner-section{
+  background-color: rgb(226, 202, 255);
+  border-radius: 60px;
+  padding: 70px; 
+  width: 100%; 
+  margin: 140px; 
+  margin-left: 10px;
+}
+.inner-heading{
+  color: #191b23;;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+.four-box{
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin: 50px;
+  margin-left: 10px;
+  height: 150px;
+  width: 100%;
+}
+.box{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 200px;
+  text-align: center;
+}
+.Nbox{
+  font-size: 56px;
+  color: #b880ff;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.box p{
+  color: rgb(25, 27, 35);
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.1;
+  
+  text-align: center;
+}
+
 
 
 
