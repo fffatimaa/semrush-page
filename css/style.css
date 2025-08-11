@@ -5,7 +5,7 @@
 }
 body {
   font-family: 'Segoe UI';
-  background-color: black;
+  background-color: #421983;
   
 }
 .first-section {
@@ -16,13 +16,13 @@ body {
 }
 .logo {
   display: flex;
-  font-weight: bold;
   margin-left: 70px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: #1A1A1A;
+  background-color: #111317;
   padding:13px;
   color: white;
   font-weight: 500;
@@ -253,6 +253,9 @@ body {
   gap: 12px; 
   margin-top: 28px;
 }
+.toolkit-btn:hover {
+  background-color:rgba(212, 209, 209, 0.15);
+}
 .toolkit-btn {
   background-color: rgba(255, 255, 255, 0.15);
   color: white;
@@ -261,19 +264,16 @@ body {
   border-radius: 999px;
   font-size: 17px;
   font-weight: 500;
-  cursor: pointer;
-}
-.toolkit-btn:hover {
-  background-color:rgba(212, 209, 209, 0.15);
+  justify-content: center;
+  margin-top: 20px;
 }
 .card{
   border-radius: 25px;
   background-color: white;
-  width: 400px;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: row;
-  
 }
 .card-content{
   display:flex;
@@ -287,10 +287,14 @@ body {
   margin-left: 20px;
 }
 .name{
+  display: flex;
+  align-items: center;
   font-size:30px;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
   font-weight: 600;
-  text-align: center;
+  margin-left: 20px;
+  gap: 10px;
+
 }
 .button{
   font-family: inherit;
@@ -304,9 +308,7 @@ body {
   border: none;
   background-color: #ff622d;
   cursor: pointer;
-  text-align: center;
   border-radius: 6px;
-  justify-content: center;
   margin-top: 50px;
 }
 .slide-container{
@@ -359,9 +361,6 @@ body {
   margin-bottom: 50px;
  
 }
-.enterprise-logo span {
-  font-weight: 400;
-}
 .enterprise-features li i{
   margin-right: 8px; 
 }
@@ -382,16 +381,16 @@ body {
 .enterprise-image img {
   width: 135%; 
   position: relative;
-  top: -445px;
+  top: -480px;
   margin-left: 440px;
 }
 .second-section {
-    background-color: white;
-    border-radius: 120px;
-    padding: 70px;            
-    max-width: 100%;    
-    margin: 5px;
-}
+  background-color: white;
+  border-radius: 120px;
+  padding: 70px 70px 1px 70px;
+  width: 100%;
+  margin: 0px;
+ }
 .Marketing-heading{
   text-align: center;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
@@ -460,8 +459,84 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.1;
-  
   text-align: center;
+}
+.inner-text{
+  font-size: 21px;
+  line-height: 1.5;
+  color: #191b23;
+  font-family: Inter, sans-serif;
+  margin-left: 200px;
+  max-width: 690px;
+ }
+ .learn-btn{
+  margin-left: 440px;
+  margin-top: 50px;
+  width: 210px;
+  height: 55px;
+  background-color: rgb(255, 98, 45);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+.learn-btn:hover {
+  background-color: rgb(156, 44, 6);
+}
+.Msemrush-heading{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.Msemrush-buttons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.Msemrush-btn {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  padding: 15px  30px;
+  border-radius: 999px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.Msemrush-btn:hover {
+  background-color:rgba(212, 209, 209, 0.15);
+}
+.Mslide-container{
+  padding: 70px;
+  max-width: 90%;
+  margin-top: 50px;
+}
+.Mcard-wrapper {
+  border-radius: 60px;
+  background-color: #cbedff;
+  height: 470px;
+  display: block;
+  flex-direction: row;
+}
+.Mname{
+  margin-top: 150px;
+  font-size: 27px;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #191b23;
+  text-align: center;
+  margin-left: 250px;
+  max-width: 700px;
+  line-height: 1.2;
+}
+.Brain-image{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 
