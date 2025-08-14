@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main-section{
+    background-color: rgb(23, 26, 34);
+
+}
 body {
   font-family: 'Segoe UI';
-  background-color: black;
+  background-color: #421983;
   
 }
 .first-section {
@@ -199,10 +203,10 @@ body {
   font-weight: 548;
 } 
 .country-select {
+  color: rgb(137, 141, 154);
   width: 39%;
   height: 59px;
   margin-left: 200px;
-  width: 20%;
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
   border-right: none;
@@ -212,6 +216,7 @@ body {
   justify-content: center;
   cursor: pointer;
   text-align: center;
+  
 }
 .start-button {
   display: flex;
@@ -358,11 +363,13 @@ body {
   list-style: none;
   font-size: 21px;
   font-weight: 400;
-  margin-bottom: 50px;
- 
+  margin-left: -10px;
 }
-.enterprise-features li i{
-  margin-right: 8px; 
+
+.enterprise-features li {
+  display: flex;
+  align-items: center; 
+  margin-top: 20px;
 }
 .enterprise-btn {
   color: white;
@@ -376,12 +383,12 @@ body {
   width: 230px;
   height: 60px;
   position: relative;
-  top: -30px;
+  top: 20px;
 }
 .enterprise-image img {
   width: 135%; 
   position: relative;
-  top: -480px;
+  top: -470px;
   margin-left: 440px;
 }
 .second-section {
@@ -424,7 +431,7 @@ body {
   margin-left: 10px;
 }
 .inner-heading{
-  color: #191b23;;
+  color: #191b23;
   font-size: 45px;
   font-weight: 600;
   text-align: center;
@@ -483,6 +490,10 @@ body {
 }
 .learn-btn:hover {
   background-color: rgb(156, 44, 6);
+}
+.center-section{
+   background-color: rgb(23, 26, 34);
+
 }
 .Msemrush-heading{
   margin-top: 70px;
