@@ -12,7 +12,6 @@ body {
   background-color: #421983;
   
 }
-
 .first-section {
   background-color: #421983;
   border-bottom-left-radius: 120px;
@@ -211,17 +210,22 @@ body {
   color: rgb(137, 141, 154);
   width: 39%;
   height: 59px;
-  margin-left: 200px;
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
   border-right: none;
   border-bottom: none;
   border-top: none;
-  font-size: 16px;
-  justify-content: center;
-  cursor: pointer;
-  text-align: center;
-  
+  font-size: 17px;
+  align-items: center;
+  text-align: center; 
+  border-left: 1px solid #a1a6af;
+  margin-top: 0px;
+  margin-left: 160px;
+}
+.country-icon {
+  font-size: 20px;
+  color: #a1a6af;
+  margin-top: 20px;
 }
 .start-button {
   display: flex;
