@@ -9,6 +9,7 @@
 }
 body {
   font-family: 'Segoe UI';
+ 
   background-color: #421983;
   
 }
@@ -44,6 +45,7 @@ body {
 .nav-links li:hover,
 .nav-links .dropdown-label:hover {
   color: white;
+  cursor: pointer;
 }
 .dropdown-label i {
   margin-left: 4px;
@@ -71,6 +73,7 @@ body {
  }
 .language-text:hover {
   color: white;
+  cursor: pointer;
 }
 .login-btn {
   background: transparent;
@@ -81,6 +84,13 @@ body {
   cursor: pointer;
   margin-right: 5px;
 }
+.login-btn:hover{
+  cursor: pointer;
+
+}
+.signup-btn:hover{
+  cursor: pointer;
+}
 .signup-btn {
   background: #00B386;
   color: white;
@@ -88,7 +98,7 @@ body {
   border: none;
   padding: 6px 14px;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer;
   margin-right: 70px;
 }
 .dropdown {
@@ -269,6 +279,7 @@ body {
 }
 .toolkit-btn:hover {
   background-color: #9d6edb;
+  cursor: pointer;
 }
 .toolkit-btn {
   background-color: rgba(255, 255, 255, 0.15);
@@ -325,15 +336,8 @@ body {
   border-radius: 6px;
   margin-top: 50px;
 }
-.slide-container{
-  padding: 40px;
-  width: 500px;
-  margin-top: 50px;
-}
-.card-image{
-   width: 400px;
-  padding: 10px 40px;
-}
+
+
 .trusted-section{
   text-align: center;
   margin-top: 70px;
@@ -351,8 +355,12 @@ body {
 .enterprise-logo{
   margin-left: -10px;
 }
+slide-container{
+  height: 100vh;
+  width: 100%;
+}
 .enterprise-section {
-  background-image: url('../image/background.png');
+  background-image: url(image/background.png);
   height: 100vh;
   width: 100%;
   position: relative;
@@ -364,12 +372,13 @@ body {
   margin-left: 40px;
 }
 .enterprise-heading {
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 400;
   margin-top: 10px;
   
   line-height: 1.1;
-  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-family:   Verdana, Arial, Helvetica, sans-serif;
+  
 }
 .enterprise-features {
   margin: 0px;
@@ -416,6 +425,7 @@ body {
   padding: 70px 70px 1px 70px;
   width: 100%;
   margin: 0px;
+ 
  }
 .Marketing-heading{
   text-align: center;
@@ -431,15 +441,18 @@ body {
   margin-top: 40px;
 }
 .Mnumber{
+  font-family: "Inter", "Proxima Nova",sans-serif; 
   font-size: 70px;
   color: rgb(184, 128, 255);
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.6;
 }
 .Mcontent p{
   color: rgb(25, 27, 35); 
   font-size: 21px;
+  font-family: Inter, sans-serif;
+  line-height: 1.3;
 }
 .inner-section{
   background-color: rgb(226, 202, 255);
@@ -476,7 +489,9 @@ body {
 .Nbox{
   font-size: 56px;
   color: #b880ff;
-  font-family: "Factor A", Arial, Helvetica, sans-serif;
+   font-family:  Arial, Helvetica, sans-serif;
+   
+
   font-weight: 600;
 }
 .box p{
@@ -506,6 +521,7 @@ body {
   outline: none;
   font-size: 18px;
   color: white;
+  cursor: pointer;
 }
 .learn-btn:hover {
   background-color: rgb(156, 44, 6);
@@ -536,6 +552,7 @@ body {
 }
 .Msemrush-btn:hover {
   background-color: #9d6edb;
+  cursor: pointer;
 }
 .Mslide-container{
   padding: 70px;
@@ -552,8 +569,8 @@ body {
   list-style: none;
 }
 .Mname{
-  margin-top: 150px;
-  font-size: 27px;
+  margin-top: 40px;
+  font-size: 28px;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #191b23;
@@ -570,7 +587,7 @@ body {
   margin-top: 10px;
 }
 .trial{
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.3;
   text-align: center;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
@@ -602,6 +619,7 @@ body {
 }
 .trial-btn:hover {
   background-color: rgb(156, 44, 6);
+  cursor: pointer;
 }
 .Third-section{
   background-color:  #111317;
@@ -633,6 +651,7 @@ body {
 .contact-btn:hover {
  border-color: white;
  color: white;
+  cursor: pointer;
 }
 .address{
   margin-top: 30px;
@@ -659,6 +678,7 @@ body {
 }
 .started-btn:hover{
   background-color: rgb(3, 97, 80);
+  cursor: pointer;
 }
 .pricing{
   display: flex;
@@ -669,6 +689,7 @@ body {
 }
 .pricing:hover {
   color: white;
+   
 }
 .colums{
   display: flex;
@@ -707,7 +728,12 @@ body {
 .flogo{
  margin-left: 80px;
 }
-
+.arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
    
 
 
