@@ -499,7 +499,7 @@ slide-container{
   gap: 40px;
   margin: 50px;
   margin-left: 10px;
-  height: 150px;
+  height: auto;
   width: 100%;
 }
 .box{
@@ -582,7 +582,8 @@ slide-container{
 }
 .Mslide-container{
   padding: 70px;
-  max-width: 100%;
+    max-width: 100%;
+  
   
 }
 .Mcard-list {
