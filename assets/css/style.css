@@ -9,7 +9,6 @@
 }
 body {
   font-family: 'Segoe UI';
- 
   background-color: #421983;
   
 }
@@ -480,9 +479,9 @@ slide-container{
   background-color: rgb(226, 202, 255);
   border-radius: 60px;
   padding: 70px; 
-  width: 100%; 
+  width: 103%; 
   margin: 140px; 
-  margin-left: 10px;
+  margin-left: -10px; 
 }
 .inner-heading{
   color: #191b23;
@@ -582,22 +581,17 @@ slide-container{
 }
 .Mslide-container{
   padding: 70px;
-    max-width: 100%;
-  
-  
+  max-width: 100%;  
 }
 .Mcard-list {
   border-radius: 60px;
   background-color: #cbedff;
-  height: 450px;
   display: flex;
-  flex-direction: row;
+  height: auto;
   margin-left: 20px;
-  list-style: none;
-   
+  list-style: none;   
 }
 .Mname{
-  
   margin-top: 40px;
   font-size: 28px;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
@@ -611,7 +605,6 @@ slide-container{
 .Brain-image{
   display: flex;
   justify-content: center;
-  
   margin-left: 200px;
   margin-top: 10px;
 }
