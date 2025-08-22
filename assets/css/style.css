@@ -23,16 +23,19 @@ body {
   display: flex;
   margin-left: 60px;
 }
-
 .navbar {
+  position: relative; 
+  z-index: 1000; 
   display: flex;
   justify-content: space-around;
   background-color: #111317;
-  padding:8px;
+  padding: 8px;
   color: white;
   font-weight: 500;
   font-size: 15px;
   line-height:30px;
+  flex-wrap:wrap;
+  align-items: center;
 }
 .nav-links {
   margin-right: 80px;
@@ -83,6 +86,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin-right: 5px;
+ 
 }
 .login-btn:hover{
   cursor: pointer;
@@ -92,6 +96,7 @@ body {
   cursor: pointer;
 }
 .signup-btn {
+
   background: #00B386;
   color: white;
   font-size: 14px;
@@ -206,6 +211,8 @@ body {
   justify-content: space-between;
   margin-left: 300px;
   border-radius: 9px;
+  
+
 }
  .index-search {
   border: none;
@@ -487,26 +494,26 @@ slide-container{
 }
 .four-box{
   display: flex;
-  justify-content: space-around;
-  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
   margin: 50px;
   margin-left: 10px;
   height: 150px;
   width: 100%;
 }
 .box{
+   
   background-color: white;
   border-radius: 10px;
   padding: 20px 30px;
-  width: 200px;
+  width: 220px;
   text-align: center;
 }
 .Nbox{
   font-size: 56px;
   color: #b880ff;
-   font-family:  Arial, Helvetica, sans-serif;
-   
-
+  font-family:  Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
 .box p{
@@ -522,14 +529,18 @@ slide-container{
   line-height: 1.5;
   color: #191b23;
   font-family: Inter, sans-serif;
-  margin-left: 200px;
-  max-width: 690px;
+  margin: 16px auto 0;
+  max-width: 68ch;
+  padding: 0 12px;
+  text-align: center;
  }
  .learn-btn{
-  margin-left: 440px;
-  margin-top: 50px;
+  margin: 24px auto 0;
   width: 210px;
   height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(255, 98, 45);
   border-radius: 8px;
   border: none;
@@ -572,7 +583,7 @@ slide-container{
 .Mslide-container{
   padding: 70px;
   max-width: 100%;
-
+  
 }
 .Mcard-list {
   border-radius: 60px;
@@ -582,8 +593,10 @@ slide-container{
   flex-direction: row;
   margin-left: 20px;
   list-style: none;
+   
 }
 .Mname{
+  
   margin-top: 40px;
   font-size: 28px;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
@@ -749,6 +762,17 @@ slide-container{
   justify-content: center;
   margin-left: 150px;
 }
+
+
+
+
+
+  
+  
+  
+  
+
+
    
 
 
