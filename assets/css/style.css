@@ -206,7 +206,7 @@ body {
 }
 .search-box {
   width: 39%;
-  height: 59px;
+  height: auto;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -221,6 +221,8 @@ body {
   font-size: 16px;
   font-family: 'Inter', sans-serif;
   font-weight: 548;
+   color: #a1a6af;
+ 
 } 
 .country-select {
   display: flex;
@@ -261,12 +263,13 @@ body {
 .start-button {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 550px;
 }
 .start-btn {
   width:28%;
-  height: 60px;
+  height: auto;
   background-color: rgb(255, 98, 45);
   color: white;
   padding: 16px 32px;
@@ -277,7 +280,7 @@ body {
   cursor: pointer;
   font-weight: lighter;
   position: relative;
-  top: -60px;
+  top: -55px;
 }
 .start-btn:hover {
   background-color: rgb(156, 44, 6);
@@ -399,7 +402,6 @@ slide-container{
   font-size: 49px;
   font-weight: 400;
   margin-top: 10px;
-  
   line-height: 1.1;
   font-family: "Urbanist",sans-serif;
   
@@ -420,6 +422,7 @@ slide-container{
 .enterprise-features li {
   gap: 3px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center; 
   
 }
@@ -705,7 +708,7 @@ slide-container{
 .started-btn{  
   border-radius: 5px;
   font-size: 16px;
-  height: 42px;
+  height: auto;
   color: white;
   border-radius: 5px;
   padding: 12px 16px;
@@ -729,39 +732,40 @@ slide-container{
   font-weight: 500;
 }
 .pricing:hover {
-  color: white;
-   
+  color: white; 
 }
 .colums{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   padding: 10px;
-  margin-left: 40px;
+  margin-left: 40px; 
+  width: 85%;
 }
 .colums ul {
-
   list-style: none;
 }
+.col{
+  flex: 1 1; 
+  margin-left: 77px;   
+}
 .col h4{
-  font-size: 15px;
+  font-size: 13px;
   color: white;
-  font-family: Inter, sans-serif;
-  font-weight: 400px;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
 }
 .col li a{
   color: #898d9a;
   text-decoration: none;
-  line-height: 1.6;
-
+  line-height: 1.8;
+  font-size: 15px;
 }
 .col li a:hover {
   color: white;
 }
-.col li a i {
-  margin-left: 5px;   
-  font-size: 12px; 
-}
+
 .footerbar{
  display: flex;
  padding: 20px;
