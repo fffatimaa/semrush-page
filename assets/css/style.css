@@ -637,7 +637,7 @@ slide-container{
   margin-top: 12px;
 }
 .trial-btn{
-  font-family:Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 600;
   padding: 12px;
@@ -717,7 +717,7 @@ slide-container{
   font-family: Inter, sans-serif;
   outline: none;
   border: none;
-  width: 95%;
+  width: 100%;
   flex-wrap: wrap;
 }
 .started-btn:hover{
@@ -730,6 +730,7 @@ slide-container{
   line-height: 3.3;
   color:  #898d9a;
   font-weight: 500;
+  font-size: 15px;
 }
 .pricing:hover {
   color: white; 
